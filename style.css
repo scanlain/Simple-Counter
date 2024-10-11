@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('./assets/subway-2893846_1280.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Arimo", sans-serif;
+}
+
+.container{
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  padding-block: 2rem;
+  position: relative;
+}
+
+
+h1{
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 4rem;
+}
+
+button{
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+button + button{
+  margin-top: 1rem;
+}
+
+#increment-btn{
+  background-color: #0468BF;
+}
+
+#save-btn{
+  background-color: #5bc783;
+
+}
+
+p{
+  color: white;
+  font-weight: bolder;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.blurr{
+  position: absolute;
+  inset: 0;
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 20px;
+}
